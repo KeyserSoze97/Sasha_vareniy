@@ -1,0 +1,118 @@
+body{
+    margin: 0%;
+    background-color: #f6f6f6;
+    font-family: 'Alumni Sans Pinstripe', Helvetica, sans-serif;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+h2{
+    margin: 0px;
+    font-size: 2em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* HEADER */
+.header{
+    height: 125px;
+    width: 100%;
+    background-color: #262225;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 5px;
+}
+
+.Why{
+    font-weight: bold;
+    color: #f6f6f6;
+    font-size: 42px;
+    justify-self: center;
+}
+/* HEADER */
+
+/*NAVIGATION*/
+.nav-bar{
+    width: 100%;
+    height: 75px;
+    background-color: #29354B;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 25px;
+}
+
+.nav-bar a{
+    color: #f6f6f6;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px
+}
+
+#subscribe{
+    background-color: #bf2020;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+/*NAVIGATION*/
+
+/*MAIN BLOCK-1*/
+.first-block{
+    display: flex;
+}
+
+.first-text-block{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    min-width: 200px;
+    position: absolute;
+    font-size: 38px;
+    margin: 50px 100px;
+}
+ .first-text-block h1, p{
+    margin: 0px;
+    color: #f6f6f6;
+ }
+/*MAIN BLOCK-1*/
+
+/*MAIN BLOCK-2*/
+.second-block{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column; 
+    width: 50vw;
+}
+
+.main-text p{
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/*MAIN BLOCK-2*/
+
